@@ -1,29 +1,36 @@
-# Project Overview
+# Rick and Morty Character Randomizer - Project 2 Overview
 
 ## Project Links
 
-- [add your github repo link]()
-- [add your deployment link]()
+- [https://github.com/gaganshayan/rickandmorty]()
+- [rickandmortyproject2.netlify.app]()
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+In this project, I'm building a REACT application that uses an API to randomly generate character's from the animated series 'Rick and Morty' and display's their profiles, along with some characteristics and statistics about their roles in the show. 
 
 ## API
 
-Use this section to include info about the API you have chosen and a code snippet of the data that it returns and is required for your project. 
+I'm using a Rick and Morty API that can be found at:
+
+- [https://rickandmortyapi.com/]()
 
 
 ```
-{data: {} }
+<script>
+        fetch ("https://rickandmortyapi.com/api/character")
+        .then ( (response) => {return response.json()} )
+        .then ( (data) => {console.log(data)})
+        
+</script>
 ```
 
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
+Linked below, you can find the wireframe and react architecture for my Rick and Morty Character Randomizer
 
-- [add link to your wireframes]()
+- [https://rickandmortyapi.com/]()
 - [add link to your react architecture]()
 
 
@@ -34,11 +41,14 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP EXAMPLE
 - Find and use external api 
 - Render data on page 
+- Create an entry point on the landing page for the user to interact with
 - Allow user to interact with the page
+- CSS styling for the page
 
 #### PostMVP EXAMPLE
 
-- Add localStorage or firebase for storage
+- Add more functionality by taking input from users to create a more tailored, personal experience.
+- Create an 'About' page to present details regarding the technical specifications about the project, present details on technologies used and add biographical data about me, the creator of the project
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
@@ -61,14 +71,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total | H | 6hrs| 5hrs | 5hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
+ <!-- Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc.  -->
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
+<!-- Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
 ```
 function reverse(string) {
 	// here is the code to reverse a string of text
 }
-```
+``` -->
