@@ -30,8 +30,7 @@ I'm using a Rick and Morty API that can be found at:
 
 Linked below, you can find the wireframe and react architecture for my Rick and Morty Character Randomizer
 
-- [https://rickandmortyapi.com/]()
-- [add link to your react architecture]()
+- [https://docs.google.com/drawings/d/1yOOhpfSfB1h35o9wRZnVzvCHuHLZKdXOX5kcYfSyYEw/edit?usp=sharing]()
 
 
 ### MVP/PostMVP - 5min
