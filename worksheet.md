@@ -68,9 +68,13 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| App | H | 1hrs| X hrs | X hrs |
+| Header| H | 2hrs| X hrs | X hrs |
+| API | H | 3hrs| X hrs | X hrs |
+| Button | H | 1hrs| X hrs | X hrs |
+| Body | H | 3hrs| X hrs | X hrs |
+| About | L | 2hrs| X hrs | X hrs |
+| Total | H | 12hrs| X hrs | X hrs |
 
 ## Additional Libraries
  <!-- Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc.  -->
