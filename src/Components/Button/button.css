@@ -1,0 +1,12 @@
+button {
+    background-color: transparent;
+    height: 20px;
+    width: 20px;
+    border-style: none;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    justify-self: center;
+}

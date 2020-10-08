@@ -7,7 +7,26 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.navbar li {
+  padding-top: 100px;
+}
+
+.navbar {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: xxx-large;
+  list-style-type: none;
+  background-color: black;
+}
+
+body {
+  background-color: gray;
+  font-family: 'Amatic SC', cursive;
+}
+
+@media (768px) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
