@@ -1,22 +1,13 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .navbar li {
   padding-top: 100px;
+  font-size: xx-large;
 }
 
 .navbar {
-
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  font-size: xxx-large;
+  font-size: 100%;
   list-style-type: none;
   background-color: black;
 }

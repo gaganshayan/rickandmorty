@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Home.css";
 import { Link } from "react-router-dom"
 import { getDefaultNormalizer } from "@testing-library/react";
-
+import Button from "../Button/button.js";
 const Home = (props) => {
 
   const rmURL = 'https://rickandmortyapi.com/api/character'
@@ -25,12 +25,13 @@ const Home = (props) => {
     const loading = (<h1>loading...</h1>)
     return (
         <>
-        { character ? loaded : loading }
-        
+        <div className="content">
+            { character ? loaded : loading }
+            <Button />
+        </div>
         </>
-    
-        
     )
+    
 }
 
 export default Home;
