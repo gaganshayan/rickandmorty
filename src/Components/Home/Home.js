@@ -3,6 +3,7 @@ import "./Home.css";
 import { Link } from "react-router-dom"
 import { getDefaultNormalizer } from "@testing-library/react";
 import Button from "../Button/button.js";
+
 const Home = (props) => {
 
   const rmURL = 'https://rickandmortyapi.com/api/character'
