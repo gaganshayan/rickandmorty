@@ -2,10 +2,13 @@
     display: grid;
     font-family: 'Amatic SC', cursive;
     text-align: center;
-    font-size: xx-large;
+    font-size: 65px;
     align-items: center;
     justify-content: center;
-    padding-bottom: 5%;
+}
+
+.youtube {
+    
 }
 
 hr {
