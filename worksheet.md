@@ -80,6 +80,9 @@ Time Frames:
 
 - [https://rickandmortyapi.com/](Rick and Morty API)
 
+- [https://fonts.google.com/](Google Fonts)
+
+
 ## Code Snippet
 
 Here is a code snippet that allows my logo to be a link to another page that hosts an embedded youtube video:
