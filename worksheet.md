@@ -52,8 +52,6 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
 
-Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
-
 | Component | Description | 
 | --- | :---: |  
 | App | This will make the initial data pull and include React Router| 
@@ -63,27 +61,50 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | About | This will render the body which will include information about the application's intentions, the technologies used, and a credit to the API and biographical plug | 
 
 
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
+Time Frames:
 
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| App | H | 1hrs| X hrs | X hrs |
-| Header| H | 2hrs| X hrs | X hrs |
-| API | H | 3hrs| X hrs | X hrs |
-| Button | H | 1hrs| X hrs | X hrs |
-| Body | H | 3hrs| X hrs | X hrs |
-| About | L | 2hrs| X hrs | X hrs |
-| Total | H | 12hrs| X hrs | X hrs |
+| App | H | 1hrs| 4 hrs | 4 hrs |
+| Header| H | 2hrs| 3 hrs | 3 hrs |
+| API | H | 3hrs| 7 hrs | 7 hrs |
+| Button | H | 1hrs| 2 hrs | 2 hrs |
+| Body | H | 3hrs| 4 hrs | 4 hrs |
+| About | L | 2hrs| 3 hrs | 3 hrs |
+| Video | L | 3hrs| 2 hrs | 2 hrs |
+| Total | H | 12hrs| 23 hrs | 23 hrs |
 
 ## Additional Libraries
- <!-- Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc.  -->
+
+- [https://www.youtube.com/watch?v=4ctK1aoWuqY&t=8s&ab_channel=Mah0ba](youtube video from the logo link)
+
+- [https://rickandmortyapi.com/](Rick and Morty API)
 
 ## Code Snippet
 
-<!-- Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
-
+Here is a code snippet that allows my logo to be a link to another page that hosts an embedded youtube video:
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-``` -->
+<div className="logo">
+         <Link to="/video"><img src="https://res.cloudinary.com/dtybx6nov/image/upload/v1602020674/RANDOM_xapvam.png" className="logo"></img></Link>
+</div>
+```
+
+Here is a code snippet that allows an image to act as a button that refreshes the page and generates a new character:
+```
+ return (
+        <div>
+            <button onClick={refreshPage}><img src="https://res.cloudinary.com/dtybx6nov/image/upload/v1602190849/portal_gun_2_nzimgo.png"></img></button>
+        </div>
+    );
+```
+
+Here is a code snippet that calls the API and randomly renders a character from the index list of characters provided by the API:
+```
+const makeApiCall = async () => {
+        const response = await fetch (rmURL);
+        const json = await response.json();
+        console.log(json)
+        const index = Math.floor(Math.random()*json.results.length) 
+        setCharacter(json.results[index])
+    };
+```
