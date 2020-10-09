@@ -48,6 +48,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 - Add more functionality by taking input from users to create a more tailored, personal experience.
 - Create an 'About' page to present details regarding the technical specifications about the project, present details on technologies used and add biographical data about me, the creator of the project
+- Add a fun video link to give users a better idea of what kind of entertainment the show provides
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
@@ -76,11 +77,11 @@ Time Frames:
 
 ## Additional Libraries
 
-- [https://www.youtube.com/watch?v=4ctK1aoWuqY&t=8s&ab_channel=Mah0ba](youtube video from the logo link)
+- [https://www.youtube.com/watch?v=4ctK1aoWuqY&t=8s&ab_channel=Mah0ba] (youtube video from the logo link)
 
-- [https://rickandmortyapi.com/](Rick and Morty API)
+- [https://rickandmortyapi.com/] (Rick and Morty API)
 
-- [https://fonts.google.com/](Google Fonts)
+- [https://fonts.google.com/] (Google Fonts)
 
 
 ## Code Snippet
