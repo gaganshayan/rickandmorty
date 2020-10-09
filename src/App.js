@@ -3,7 +3,7 @@ import './App.css';
 import Header from "./Components/header/header.js";
 import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
-import Footer from "./Components/Footer/Footer.js";
+import Footer from "./Components/Footer/Footer";
 import Video from "./Components/Video/Video";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
