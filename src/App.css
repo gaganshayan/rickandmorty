@@ -1,6 +1,7 @@
 .navbar li {
-  padding-top: 100px;
-  font-size: 150px;
+  font-size: 125px;
+  padding-left: 5%;
+  padding-right: 5%;
   text-decoration: none;
 }
 
@@ -12,15 +13,11 @@
   background-color: black;
 }
 
-.Home {
-  justify-content: center;
-}
-
 body {
   background-color: gray;
   font-family: 'Amatic SC', cursive;
 }
 
-@media (768px) {
+/* @media () {
   
-}
+} */

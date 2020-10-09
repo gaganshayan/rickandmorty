@@ -22,13 +22,19 @@ const Home = (props) => {
         makeApiCall();
     },[]);
 
-    const loaded = (<><img src={character.image} /><h1>{character.name}</h1><h1>{character.gender}</h1><h1>{character.status}</h1></>)
+    const loaded = (<><img src={character.image} /><hr /><h1>Name: {character.name}</h1><h1>Gender: {character.gender}</h1><h1>Life Status: {character.status}</h1><hr /></>)
     const loading = (<h1>loading...</h1>)
     return (
         <>
         <div className="content">
             { character ? loaded : loading }
             <Button />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <h3>Click Portal Gun to Generate New Character</h3>
         </div>
         </>
     )
