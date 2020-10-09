@@ -2,3 +2,23 @@
     text-decoration: none;
     font-family: 'Amatic SC', cursive;
 }
+
+.navbar li {
+    font-size: 125px;
+    padding-left: 7%;
+    padding-right: 7%;
+    text-decoration: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: black;
+  }
+
+.logo {
+    width: 425px;
+    height: 375px;
+}

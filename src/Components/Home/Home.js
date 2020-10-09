@@ -22,7 +22,7 @@ const Home = (props) => {
         makeApiCall();
     },[]);
 
-    const loaded = (<><img src={character.image} /><hr /><h1>Name: {character.name}</h1><h1>Gender: {character.gender}</h1><h1>Life Status: {character.status}</h1><hr /></>)
+    const loaded = (<><img src={character.image} className="profile" /><hr /><h1>Name: {character.name}</h1><h1>Gender: {character.gender}</h1><h1>Life Status: {character.status}</h1><hr /></>)
     const loading = (<h1>loading...</h1>)
     return (
         <>

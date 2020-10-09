@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
             </li>
             <li>
                 <div className="logo">
-                    <Link to="/video"><img src="https://res.cloudinary.com/dtybx6nov/image/upload/v1602020674/RANDOM_xapvam.png"></img></Link>
+                    <Link to="/video"><img src="https://res.cloudinary.com/dtybx6nov/image/upload/v1602020674/RANDOM_xapvam.png" className="logo"></img></Link>
                 </div>
             </li>
             <li>
